@@ -1,5 +1,5 @@
-prog4: Allocation.o Allocator.o printAllocations.o prog4.o
-	gcc -g -Wall -Werror -o prog4 Allocation.o Allocator.o printAllocations.o prog4.o
+prog4: Allocation.o Allocator.o prog4.o
+	gcc -g -Wall -Werror -o prog4 Allocation.o Allocator.o prog4.o
 
 Allocation.o: Allocation.c
 	gcc -g -Wall -Werror -c Allocation.c
